@@ -1,0 +1,114 @@
+{
+  "projectData": [
+    {
+      "name": "Food Ordering App",
+      "desc": "A food Ordeing App User can see restraunt in near areas and see menus with add , delete cart functionality",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522081/Portfolio/scis35g9j7qyhn4r9u8c.png",
+      "category": "Frontend",
+      "links": {
+        "view": "https://bitemates.vercel.app/",
+        "code": "https://github.com/Sarvesh207/Bitemates"
+      }
+    },
+    {
+      "name": "Netflix Clone",
+      "desc": "Netflix Clone with Login , SignUp functionality and with used Open AI API intergration to get suggestions for movies",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522083/Portfolio/znecrl9sunpboxk5gqlt.png",
+      "category": "React",
+      "links": {
+        "view": "https://netflix-gpt-git-main-sarvesh207.vercel.app/",
+        "code": "https://github.com/Sarvesh207/Netflix_GPT.git"
+      }
+    },
+    {
+      "name": "Red Buse Clone",
+      "desc": "Ticket Booking Web App for user, User Can book bus tickets.",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522798/Portfolio/b3okeovjrupkllpadzir.png",
+      "category": "React App",
+      "links": {
+        "view": "https://redbus207.netlify.app/",
+        "code": "https://github.com/Sarvesh207/Redbus-Clone---React-Project---9ogpipafet84.git"
+      }
+    },
+    {
+      "name": "E-Com",
+      "desc": "E-Com Store fully responsive UI with Add to cart functionality and Filter product on category.",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522082/Portfolio/rreuxgdlcsulkvjeopix.png",
+      "category": "Web App",
+      "links": {
+        "view": "https://estore-application.netlify.app/",
+        "code": "https://github.com/Sarvesh207/E-Store-App.git"
+      }
+    },
+    {
+      "name": "YouTube Clone",
+      "desc": "Fully Functional Youtube clone with seacrh functionality and Videos Recamendations",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522082/Portfolio/bumeknzrra2wjwrjwkqv.png",
+      "category": "webApp",
+      "links": {
+        "view": "https://youtube-clone-sigma-five.vercel.app/",
+        "code": "https://github.com/Sarvesh207/Youtube_Clone.git"
+      }
+    },
+    {
+      "name": "Nike",
+      "desc": "Full Responsive Landing Page",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522082/Portfolio/becjxnveoxon6bzxjgr6.png",
+      "category": "webApp",
+      "links": {
+        "view": "https://nike-clone-lake.vercel.app/",
+        "code": "https://github.com/Sarvesh207/Nike_Clone"
+      }
+    },
+    {
+      "name": "Shop-X",
+      "desc": "Full Responsive Landing Page",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522083/Portfolio/g9i9saq32yvw4rojmtde.png",
+      "category": "webApp",
+      "links": {
+        "view": "https://shop-ex-cmrg-git-master-sarvesh207.vercel.app/",
+        "code": "https://github.com/Sarvesh207/Nike_Clone"
+      }
+    },
+    {
+      "name": "DashBoard",
+      "desc": "Full Responsive Landing Page",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522081/Portfolio/ptifjyavihg2vdt5aeyl.png",
+      "category": "webApp",
+      "links": {
+        "view": "https://chaabi-dashboard-theta.vercel.app/",
+        "code": "https://github.com/Sarvesh207/Nike_Clone"
+      }
+    },
+    {
+      "name": "Restraunt Web Site",
+      "desc": "Responsive Restraunt UI",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522082/Portfolio/zy58o5ffvkigappfopmd.png",
+      "category": "WebSite",
+      "links": {
+        "view": "https://loquacious-boba-c7bf98.netlify.app/",
+        "code": "https://github.com/Sarvesh207/Youtube_Clone.git"
+      }
+    },
+    {
+      "name": "Dictionary",
+      "desc": "Dictionary App User can Search Meaning word and See History of already searched word",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522080/Portfolio/vm4kla1q6hahuv3gdnho.png",
+      "category": "WebSite",
+      "links": {
+        "view": "https://joyful-tiramisu-5c8edf.netlify.app/",
+        "code": "https://github.com/Sarvesh207/My-Dictionary---Javascript-Project---031s6t5yw2vo"
+      }
+    },
+    {
+      "name": "Resume",
+      "desc": "Resume Template",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522082/Portfolio/df6we3zobow8z36jtjew.png",
+      "category": "WebSite",
+      "links": {
+        "view": "https://joyful-tiramisu-5c8edf.netlify.app/",
+        "code": "https://github.com/Sarvesh207/Responsive_Resume_Grid.git"
+      }
+    }
+  ]
+}
