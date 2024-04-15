@@ -9,7 +9,7 @@ export const HoverEffect = ({
 }: {
   items: {
     title: string;
-    skills: [];
+    skills: string[];
   }[];
   className?: string;
 }) => {
@@ -22,7 +22,7 @@ export const HoverEffect = ({
         className
       )}
     >
-      {items.map((item: {}, idx: number) => (
+      {items.map((item: { title: string; skills: string[] }, idx: number) => (
         <Link
           href={"#"}
           key={item?.title}
