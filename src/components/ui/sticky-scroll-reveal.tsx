@@ -11,7 +11,7 @@ export const StickyScroll = ({
     title: string;
     company:string;
     date:string;
-    description: string;
+    description: string[];
   }[];
 }) => {
   const [activeCard, setActiveCard] = React.useState(0);
@@ -67,10 +67,10 @@ export const StickyScroll = ({
                 >
                   {item.title}
                 </motion.h2>
-                <motion.h4>
+                <motion.h4 className="italic text-sm">
                   {item.company}
                 </motion.h4>
-                <motion.h5>
+                <motion.h5 className="italic text-xs">
                   {item.date}
                 </motion.h5>
                 <motion.p
@@ -82,7 +82,7 @@ export const StickyScroll = ({
                   }}
                   className="text-kg text-slate-300 max-w-sm mt-10"
                 >
-                  {item.description}
+                  {item.description.map((item) => (<li className="mb-2 ">{item}</li>))}
                 </motion.p>
               </div>
             ))}

@@ -14,11 +14,17 @@ function Parallax() {
 
 export default Parallax
 export const products = [
+  {
+    title: "The Blog app",
+    link: "https://theblogapp.vercel.app/",
+    thumbnail:
+      "https://res.cloudinary.com/dliuckrho/image/upload/v1713284241/e4hvgwpqyrjdvocpjvyb.png",
+  },
     {
-      title: "Food Ordering APp",
-      link: "https://bitemates.vercel.app/",
+      title: "Fooda",
+      link: "https://fooda.vercel.app/",
       thumbnail:
-        "https://res.cloudinary.com/dliuckrho/image/upload/v1704522081/Portfolio/scis35g9j7qyhn4r9u8c.png",
+        "https://res.cloudinary.com/dliuckrho/image/upload/v1713284290/rfu3yyjzcwwwtym8s6qr.png",
     },
     {
       title: "Netflix Clone",

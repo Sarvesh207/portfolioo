@@ -1,13 +1,23 @@
 {
   "projectData": [
     {
-      "name": "Food Ordering App",
-      "desc": "A food Ordeing App User can see restraunt in near areas and see menus with add , delete cart functionality",
-      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1704522081/Portfolio/scis35g9j7qyhn4r9u8c.png",
+      "name": "The Blog App",
+      "desc": "Welcome to our user-friendly blog app, where creating, editing, and deleting your blog posts is a seamless and empowering experience.",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1713284241/e4hvgwpqyrjdvocpjvyb.png",
       "category": "Frontend",
       "links": {
-        "view": "https://bitemates.vercel.app/",
-        "code": "https://github.com/Sarvesh207/Bitemates"
+        "view": "https://theblogapp.vercel.app/",
+        "code": "https://github.com/Sarvesh207/blogApp"
+      }
+    },
+    {
+      "name": "Food Ordering App",
+      "desc": "A food Ordeing App User can see restraunt in near areas and see menus with add , delete cart functionality",
+      "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1713284290/rfu3yyjzcwwwtym8s6qr.png",
+      "category": "Frontend",
+      "links": {
+        "view": "https://fooda.vercel.app/",
+        "code": "https://github.com/Sarvesh207/FOODA"
       }
     },
     {
