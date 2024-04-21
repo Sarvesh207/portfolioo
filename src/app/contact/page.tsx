@@ -9,7 +9,6 @@ function MusicSchoolContactUs() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log("Submitted:", { email, message });
   };
 
   return (
@@ -30,7 +29,7 @@ function MusicSchoolContactUs() {
           user-friendly web applications. With expertise in front-end
           technologies like CSS and JavaScript, as well as back-end proficiency
           in Node.js, I deliver projects on time and exceed client expectations.
-          Let's connect and collaborate on innovative projects.
+          Let&apos;s connect and collaborate on innovative projects.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
