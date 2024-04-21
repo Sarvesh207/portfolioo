@@ -1,4 +1,4 @@
-
+'use client'
 import FeaturedSkills from "@/components/FeaturedSkills";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";

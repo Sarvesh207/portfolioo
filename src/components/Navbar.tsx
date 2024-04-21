@@ -6,23 +6,21 @@ function Navbar() {
     {
       name: "Home",
       link: "/",
-      
     },
     {
       name: "About",
       link: "/about",
-      
     },
     {
       name: "Contact",
       link: "/contact",
-      
     },
   ];
-  return <div>
-          <FloatingNav navItems={navItems} />
-
-  </div>;
+  return (
+    <div>
+      <FloatingNav navItems={navItems} />
+    </div>
+  );
 }
 
 export default Navbar;

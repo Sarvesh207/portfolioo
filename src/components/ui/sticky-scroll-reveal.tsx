@@ -82,7 +82,7 @@ export const StickyScroll = ({
                   }}
                   className="text-kg text-slate-300 max-w-sm mt-10"
                 >
-                  {item.description.map((item) => (<li className="mb-2 ">{item}</li>))}
+                  {item.description.map((item, idx) => (<li key={idx} className="mb-2 ">{item}</li>))}
                 </motion.p>
               </div>
             ))}

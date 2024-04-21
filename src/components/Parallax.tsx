@@ -24,7 +24,7 @@ export const products = [
       title: "Fooda",
       link: "https://fooda.vercel.app/",
       thumbnail:
-        "https://res.cloudinary.com/dliuckrho/image/upload/v1713284290/rfu3yyjzcwwwtym8s6qr.png",
+        "https://res.cloudinary.com/dliuckrho/image/upload/v1713685694/Screenshot_2024-04-21_131312_ddjsdr.png",
     },
     {
       title: "Netflix Clone",
