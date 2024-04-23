@@ -1,0 +1,1 @@
+export const resume_link = "https://docs.google.com/document/d/1sUmqdcNjferQ2caCHesP2oxu2EK7SJ8vqANfFaN_fWY/edit"

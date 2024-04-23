@@ -5,6 +5,7 @@ import { Button } from "./ui/moving-border";
 import { TypewriterEffect } from "./ui/typewriter-effect";
 import Image from "next/image";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import { resume_link } from "@/data/constant";
 
 const words = [
   {
@@ -39,7 +40,7 @@ function HeroSection() {
         <TypewriterEffect words={words} />
 
         <div className="mt-4 flex gap-8 justify-center  ">
-          <Link href={"/courses"}>
+          <Link href={resume_link}>
             <Button
               borderRadius="1.75rem"
               className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
