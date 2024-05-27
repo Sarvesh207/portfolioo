@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <Navbar />
         </div>
         {children}
+        
       </body>
     </html>
   );

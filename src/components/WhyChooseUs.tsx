@@ -25,12 +25,9 @@ const musicSchoolContent = [
     date: "April-22 - April-23",
 
     description: [
-      "Developed a meeting management application using React, allowing users to schedule, organize, and manage meetings efficiently.",
-
-      "Engineered backend API in Express and Node.js, enabling seamless data retrieval from MongoDB database leading to a reduction in front-end loading time and improved user experience.",
-
-      "Developed and implemented automated solutions using Google AppScript (JavaScript) to streamline and optimize workflow processes within Google Workspace applications, resulting in increased efficiency and reduced manual workload.",
-
+      "Managed an advanced meeting management app with React to streamline scheduling, organization, and management; decreased administrative overhead by 30%; and improved meeting coordination efficiency by 35%.",
+      "Designed a dynamic customer interface with React and Zoho CRM API integration, enabled real-time access to client information, enhancing customer service efficiency, and increasing client satisfaction scores by 25%.",
+      "Engineered sophisticated workflows in Zoho CRM via webhooks and custom functions; streamlined business logic, slashing manual intervention and boosting system efficiency, contributing to a rise in overall operational performance.",
       "Implemented scheduled scripts in Google Apps Script to perform routine tasks, such as data updates and email notifications, reducing the need for manual intervention and ensuring timely execution of critical processes.",
     ],
   },

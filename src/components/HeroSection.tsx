@@ -6,23 +6,38 @@ import { TypewriterEffect } from "./ui/typewriter-effect";
 import Image from "next/image";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import { resume_link } from "@/data/constant";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { FlipWords } from "./ui/flip-words";
 
 const words = [
   {
-    text: "Full",
+    text: "I",
   },
   {
-    text: "Stack",
+    text: "build",
   },
   {
-    text: "Developer.",
+    text: "things",
+  },
+  {
+    text: "for",
+  },
+  {
+    text: "the",
+  },
+  {
+    text: "web",
     className: "text-blue-500 dark:text-blue-500",
   },
 ];
+const desination = ["better", "cute", "beautiful", "modern"];
+
+
+
 
 function HeroSection() {
   return (
-    <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
+    <div className="  min-h-screen  h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
@@ -38,6 +53,7 @@ function HeroSection() {
 
       <div className="p-4 relative z-10 w-full text-center">
         <TypewriterEffect words={words} />
+        
 
         <div className="mt-4 flex gap-8 justify-center  ">
           <Link href={resume_link}>
@@ -48,9 +64,7 @@ function HeroSection() {
               Hire Me
             </Button>
           </Link>
-          
         </div>
-        
       </div>
     </div>
   );

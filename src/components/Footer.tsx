@@ -49,25 +49,35 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Me</h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-col  justify-start">
             <a
-              href="#"
+               href="https://www.linkedin.com/in/sarvesh207/"
+               target="blank"
               className="hover:text-white transition-colors duration-300"
             >
               Linkedin
             </a>
             <a
-              href="#"
+              href="https://twitter.com/gaynar_sarvesh"
+              target="blank"
               className="hover:text-white transition-colors duration-300"
             >
               Twitter
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/sarvesh207_/"
+              target="blank"
               className="hover:text-white transition-colors duration-300"
             >
               Instagram
+            </a>
+            <a
+              href="https://github.com/Sarvesh207"
+              target="blank"
+              className="hover:text-white transition-colors cursor-pointer duration-300"
+            >
+              Github
             </a>
           </div>
         </div>

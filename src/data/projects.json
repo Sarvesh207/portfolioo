@@ -1,6 +1,15 @@
 {
   "projectData": [
     {
+        "name": "Mystery Message",
+        "desc": "Built a Mystery Message app utilizing GPT API for automated message suggestions, facilitating efficient user feedback collection.",
+        "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1716777456/Screenshot_2024-05-27_080715_ues02q.png",
+        "category": "Full Stack",
+        "links": {
+          "view": "https://mistry-messages.vercel.app/",
+          "code": "https://github.com/Sarvesh207/mistryMessages"
+        }
+      },{
       "name": "The Blog App",
       "desc": "Welcome to our user-friendly blog app, where creating, editing, and deleting your blog posts is a seamless and empowering experience.",
       "image": "https://res.cloudinary.com/dliuckrho/image/upload/v1713284241/e4hvgwpqyrjdvocpjvyb.png",
