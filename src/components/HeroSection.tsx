@@ -8,6 +8,7 @@ import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import { resume_link } from "@/data/constant";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { FlipWords } from "./ui/flip-words";
+import { SocialDock } from "./SocialDock";
 
 const words = [
   {
@@ -32,9 +33,6 @@ const words = [
 ];
 const desination = ["better", "cute", "beautiful", "modern"];
 
-
-
-
 function HeroSection() {
   return (
     <div className="  min-h-screen  h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
@@ -51,9 +49,8 @@ function HeroSection() {
         alt="Profile"
       />
 
-      <div className="p-4 relative z-10 w-full text-center">
+      <div className="px-4 py-4 relative z-10 w-full text-center">
         <TypewriterEffect words={words} />
-        
 
         <div className="mt-4 flex gap-8 justify-center  ">
           <Link href={resume_link}>

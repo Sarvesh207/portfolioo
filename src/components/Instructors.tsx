@@ -45,7 +45,7 @@ function Instructors() {
           Connect with me and let&apos; make it happen.
         </p>
         <div className="flex flex-row items-center justify-center mb-10 w-full">
-          <AnimatedTooltip items={media} />
+          {/* <AnimatedTooltip items={media} /> */}
         </div>
       </WavyBackground>
     </div>
