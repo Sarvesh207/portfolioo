@@ -14,12 +14,13 @@ import { Boxes } from "@/components/ui/background-boxes";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import { cn } from "@/utils/cn";
-
+import Header from "../sections/Header"
 export default function Home() {
   const nameWords = `Hi, my name is Sarvesh`;
 
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+      <Header/>
       <HeroSectionBackground />
 
       <Parallax />
